@@ -374,6 +374,7 @@ namespace EnhancedSettings {
 		settings.insert(qsl("translate_to_tc"), GetEnhancedBool("translate_to_tc"));
 		settings.insert(qsl("hide_stories"), GetEnhancedBool("hide_stories"));
 		settings.insert(qsl("dontopen_stories"), GetEnhancedBool("dontopen_stories"));
+		settings.insert(qsl("donthover_emojis"), GetEnhancedBool("donthover_emojis"));
 
 		auto document = QJsonDocument();
 		document.setObject(settings);
